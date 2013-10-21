@@ -1,0 +1,19 @@
+opam-version: "1"
+maintainer: "kakadu.hafanana@gmail.com"
+build: [
+	["./autogen.sh"]
+	["./configure"]
+	[make]
+	[make "install"]
+]
+
+homepage: "http://oops.math.spbu.ru/projects/settings"
+patches: [
+	"popd.patch"
+	"version.patch"	
+]
+depends: [
+	"logger" 
+	"typeutil" 
+	]
+

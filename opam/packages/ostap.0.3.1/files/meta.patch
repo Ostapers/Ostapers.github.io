@@ -1,0 +1,13 @@
+--- util/Makefile.am	(revision 173)
++++ util/Makefile.am	(working copy)
+@@ -44,7 +44,9 @@
+ 	date=`LC_TIME=C date`; \
+ 	echo "version = \"$$revision\"" > $@; \
+ 	echo "description = \"$(DESCRIPTION)\"" >> $@; \
+-	echo "requires = \"\"" >> $@
++	echo "requires = \"str typeutil\"" >> $@; \
++	echo "archive(byte) = \"ostap.cmo\"" >> $@; \
++	echo "archive(native) = \"ostap.cmx\"" >> $@
+ 
+ install-data-am: $(TARGET)
+ if HAVE_OCAMLFIND

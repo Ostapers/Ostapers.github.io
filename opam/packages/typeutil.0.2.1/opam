@@ -1,0 +1,10 @@
+opam-version: "1"
+maintainer: "kakadu.hafanana@gmail.com"
+build: [
+	[make]
+	[make "install"]
+]
+
+homepage: "http://oops.math.spbu.ru/projects/typeutil"
+depends: ["logger"]
+

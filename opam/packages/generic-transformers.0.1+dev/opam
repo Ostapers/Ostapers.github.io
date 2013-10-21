@@ -1,0 +1,14 @@
+opam-version: "1"
+maintainer: "kakadu.hafanana@gmail.com"
+build: [
+	["./autogen.sh"]
+	["./configure"]
+	[make]
+	[make "install"]
+]
+remove: [
+	["ocamlfind" "remove" "GT"]
+]
+homepage: "http://code.google.com/p/generic-transformers"
+
+
