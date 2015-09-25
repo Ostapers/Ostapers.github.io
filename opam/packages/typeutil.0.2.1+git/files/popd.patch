@@ -1,0 +1,16 @@
+Index: autogen.sh
+===================================================================
+--- autogen.sh	(revision 50)
++++ autogen.sh	(working copy)
+@@ -1,9 +1,9 @@
+-#!/bin/sh
++#!/bin/bash
+ 
+ set -x
+ pushd `dirname $0`
+ aclocal
+ autoconf --force
+ automake --add-missing --copy --foreign
+-svn info|grep '^Revision:'|awk '{print "$Revision:",$2,"$"}' > VERSION
++echo "0.2" > VERSION
+ popd

@@ -1,2 +1,1 @@
-archive: "https://github.com/Kakadu/generic-transformers/archive/master.tar.gz"
-
+git: "git@github.com:dboulytchev/generic-transformers.git"

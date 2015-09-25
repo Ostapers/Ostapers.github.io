@@ -9,6 +9,4 @@ build: [
 remove: [
 	["ocamlfind" "remove" "GT"]
 ]
-homepage: "http://code.google.com/p/generic-transformers"
-
-
+homepage: "https://github.com/dboulytchev/generic-transformers"
