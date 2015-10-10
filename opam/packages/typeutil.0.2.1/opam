@@ -1,8 +1,11 @@
 opam-version: "1"
 maintainer: "kakadu.hafanana@gmail.com"
 build: [
-	[make]
-	[make "install"]
+  [make]
+  [make "install"]
+]
+remove: [
+  [make "uninstall"]
 ]
 
 homepage: "http://oops.math.spbu.ru/projects/typeutil"

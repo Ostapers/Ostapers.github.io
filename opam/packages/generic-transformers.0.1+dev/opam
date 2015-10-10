@@ -7,4 +7,5 @@ build: [
 remove: [
 	["ocamlfind" "remove" "GT"]
 ]
+depends: ["ocamlfind" "typeutil"]
 homepage: "https://github.com/dboulytchev/generic-transformers"
