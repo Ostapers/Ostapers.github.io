@@ -18,7 +18,7 @@ packages/ostap.0.3.1/opam a5298130726d9a5f5c6d959cdcd88369 0o664
 packages/ostap.0.3.1/files/version.patch 8e89a3df33967735731c3b779d92df1d 0o664
 packages/ostap.0.3.1/files/meta.patch ab8437c0b4298cb435d742dbfaedc174 0o664
 packages/ostap.0.3.1/descr 0036e2148f367f209a390641fd7267e3 0o664
-packages/miniKanren-typed.0.0.1/url dc7627ac98d603ad6a52775ccb192f93 0o664
+packages/miniKanren-typed.0.0.1/url 0a56219a5fc37da6d78c520ab9841d7c 0o664
 packages/miniKanren-typed.0.0.1/opam b022f9ab3d50109e9ee3bdf514b45d2c 0o664
 packages/miniKanren-typed.0.0.1/descr a2262bf4547e2290e3efeefcd720a269 0o664
 packages/logger.0.4.2/url ad00498f4d731c4966b7eba247ebf6ab 0o664
@@ -26,8 +26,8 @@ packages/logger.0.4.2/opam fac79fecc460f181795a90fbb8358d84 0o664
 packages/logger.0.4.2/files/version.patch feaaf11a874327b92fb5a2fae7269a9d 0o664
 packages/logger.0.4.2/files/popd.patch ec3d0c1b0edf11d29b6e6fe2562933dd 0o664
 packages/logger.0.4.2/descr 059c8176885b67cc4dbe50612cf45bff 0o664
-packages/generic-transformers.0.1+dev/url 23873bb4bb61bfb272f75abd3fe5ce94 0o664
-packages/generic-transformers.0.1+dev/opam d8e1cb460067fc0410790bc7a79b2fe9 0o664
+packages/generic-transformers.0.1+dev/url e01d8696f215f99f89d1bf5b18a37732 0o664
+packages/generic-transformers.0.1+dev/opam 02767478ca5376e2c80c43f37708c287 0o664
 packages/generic-transformers.0.1+dev/descr 42e7e17dddc8abf66682400d79731b98 0o664
 packages/checked.0.3.1/url c9e8352e7cfe5519148c3eef2b7c53df 0o664
 packages/checked.0.3.1/opam 92b7596aa523c5acae60bcadaa4146a8 0o664
