@@ -27,7 +27,7 @@ packages/logger.0.4.2/files/version.patch feaaf11a874327b92fb5a2fae7269a9d 0o664
 packages/logger.0.4.2/files/popd.patch ec3d0c1b0edf11d29b6e6fe2562933dd 0o664
 packages/logger.0.4.2/descr 059c8176885b67cc4dbe50612cf45bff 0o664
 packages/generic-transformers.0.1+dev/url e01d8696f215f99f89d1bf5b18a37732 0o664
-packages/generic-transformers.0.1+dev/opam 02767478ca5376e2c80c43f37708c287 0o664
+packages/generic-transformers.0.1+dev/opam 313dbddd3a19ac43a57cd0c31a1802f5 0o664
 packages/generic-transformers.0.1+dev/descr 42e7e17dddc8abf66682400d79731b98 0o664
 packages/checked.0.3.1/url c9e8352e7cfe5519148c3eef2b7c53df 0o664
 packages/checked.0.3.1/opam 92b7596aa523c5acae60bcadaa4146a8 0o664
