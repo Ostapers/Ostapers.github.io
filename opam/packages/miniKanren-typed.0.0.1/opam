@@ -2,9 +2,11 @@ opam-version: "1"
 maintainer: "kakadu.hafanana@gmail.com"
 build: [
         [make]
-        [make "install"]
+        [make "PREFIX=%{prefix}%" "install"]
 ]
-
+remove: [
+        [make "PREFIX=%{prefix}%" "uninstall" ]
+]
 homepage: "https://github.com/dboulytchev/miniKanren-ocaml-typed"
 depends: [
         "generic-transformers"
