@@ -18,7 +18,7 @@ opam switch test-kanren -A 4.01.0
 eval `opam config env`
 opam remote add ostap http://ostapers.github.io/opam
 opam update ostap
-opam install generic-transformers -y
+opam install generic-transformers logger -y
 
 #cd ~/prog
 rm -fr miniKanren-ocaml && git clone git@github.com:Ostapers/miniKanren-ocaml-typed.git miniKanren-ocaml && cd miniKanren-ocaml
