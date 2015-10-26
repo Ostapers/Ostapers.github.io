@@ -21,7 +21,7 @@ packages/ostap.0.3.1/descr 0036e2148f367f209a390641fd7267e3 0o664
 packages/miniKanren-typed.0.0.1/url 0a56219a5fc37da6d78c520ab9841d7c 0o664
 packages/miniKanren-typed.0.0.1/opam 6918aa99ae783eea29d030e2766bfc5e 0o664
 packages/miniKanren-typed.0.0.1/descr a2262bf4547e2290e3efeefcd720a269 0o664
-packages/logger.0.4.2/url ad00498f4d731c4966b7eba247ebf6ab 0o664
+packages/logger.0.4.2/url 688ea2a0d4ac904b785973c5098b7670 0o664
 packages/logger.0.4.2/opam 7053760462e16e640ea7824b1511882d 0o664
 packages/logger.0.4.2/files/version.patch feaaf11a874327b92fb5a2fae7269a9d 0o664
 packages/logger.0.4.2/files/popd.patch ec3d0c1b0edf11d29b6e6fe2562933dd 0o664
@@ -47,7 +47,6 @@ packages/camlp5.6.11+ostappatch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
 archives/typeutil.0.2.1+opam.tar.gz 20162faf7c59ee128adb93d1a30c0cb2 0o664
 archives/settings.0.1+opam.tar.gz ddc346edfac64c4d67149b71acd39aea 0o664
 archives/ostap.0.3.1+opam.tar.gz 76697097b5f812a6540d32c1eeb2c201 0o664
-archives/logger.0.4.2+opam.tar.gz 8e7b34f2f9052cb74a74de915383f5d1 0o664
 archives/checked.0.3.1+opam.tar.gz 6827b55206a66bda1c20fcb34c4c2797 0o664
 archives/camlp5.6.14+ostappatch+opam.tar.gz a756f0f155e89feaa2e7f60f78f2f6b5 0o664
 archives/camlp5.6.11+ostappatch+opam.tar.gz a805070c3432595078d92ab80f8b59f5 0o664
