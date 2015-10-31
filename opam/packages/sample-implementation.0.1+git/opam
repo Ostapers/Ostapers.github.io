@@ -1,0 +1,12 @@
+opam-version: "1"
+maintainer: "kakadu.hafanana@gmail.com"
+build: [
+	[make]
+	[make "install"]
+]
+remove: [
+	[make "uninstall"]
+]
+depends: [ "ocamlfind" "settings" "re" "checked" "ostap" "generic-transformers" "typeutil" ]
+#homepage: "https://github.com/dboulytchev/generic-transformers"
+
