@@ -1,0 +1,13 @@
+opam-version: "1"
+maintainer: "kakadu.hafanana@gmail.com"
+build: [
+	[make]
+	[make "install"]
+]
+depends: [
+	"logger" 
+	"typeutil" 
+	]
+remove: [
+	[make "uninstall"]
+	]
