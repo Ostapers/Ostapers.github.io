@@ -10,4 +10,7 @@ depends: [
 	"typeutil" 
 	"ocamlfind"
 ]
+remove: [
+	[make "uninstall"]
+]
 
