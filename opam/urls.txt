@@ -48,8 +48,8 @@ packages/camlp5.6.11+ostappatch/opam 873aa17982273e394b2e5290694ba662 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5-6.08.patch 39079360e0d0ed09397d387e3c61afbb 0o664
 packages/camlp5.6.11+ostappatch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
-compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o644
-compilers/4.02.3+fastppx/4.02.3+fastppx.comp 1c63288ef513cf5c9eb92c9294187f28 0o644
+compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o664
+compilers/4.02.3+fastppx/4.02.3+fastppx.comp 35418848b30883e3256984858fb506f0 0o664
 archives/typeutil.0.2.1+opam.tar.gz d20b5f703e1cd59fcbeb40c906f96b44 0o664
 archives/settings.0.1+opam.tar.gz c9f7e5a3cda4e332a1a9a4ef535d9868 0o664
 archives/ostap.0.3.1+opam.tar.gz 344a602e0ca0b8b1a6e31afce76ffb32 0o664
