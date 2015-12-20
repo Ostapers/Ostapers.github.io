@@ -19,11 +19,9 @@ packages/settings.0.1+git/descr 68cc2a2bd5d427f2c757e2f88a7d572c 0o664
 packages/sample-implementation.0.1+git/url 4ad9323c7bc7bf3aa6f87b60bce311a2 0o664
 packages/sample-implementation.0.1+git/opam df2ec29cba1ecc3a0fae1442893810d7 0o664
 packages/sample-implementation.0.1+git/descr c761fb96b2bec69ebc98636d9190a6b0 0o664
-packages/ostap.0.3.1/url 7d737dcf7176fbf9f26a0efd455106ff 0o664
-packages/ostap.0.3.1/opam a5298130726d9a5f5c6d959cdcd88369 0o664
-packages/ostap.0.3.1/files/version.patch 8e89a3df33967735731c3b779d92df1d 0o664
-packages/ostap.0.3.1/files/meta.patch ab8437c0b4298cb435d742dbfaedc174 0o664
-packages/ostap.0.3.1/descr 0036e2148f367f209a390641fd7267e3 0o664
+packages/ostap.0.3.1+git/url cc2c51ece73cb5d80468f265717ff540 0o664
+packages/ostap.0.3.1+git/opam a59d895bbda43d6b03151402a1a0a206 0o664
+packages/ostap.0.3.1+git/descr 0036e2148f367f209a390641fd7267e3 0o664
 packages/miniKanren-typed.0.0.1/url 0a56219a5fc37da6d78c520ab9841d7c 0o664
 packages/miniKanren-typed.0.0.1/opam 6918aa99ae783eea29d030e2766bfc5e 0o664
 packages/miniKanren-typed.0.0.1/descr a2262bf4547e2290e3efeefcd720a269 0o664
@@ -48,11 +46,10 @@ packages/camlp5.6.11+ostappatch/opam 873aa17982273e394b2e5290694ba662 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5-6.08.patch 39079360e0d0ed09397d387e3c61afbb 0o664
 packages/camlp5.6.11+ostappatch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
-compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o664
+compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o644
 compilers/4.02.3+fastppx/4.02.3+fastppx.comp 35418848b30883e3256984858fb506f0 0o664
 archives/typeutil.0.2.1+opam.tar.gz d20b5f703e1cd59fcbeb40c906f96b44 0o664
 archives/settings.0.1+opam.tar.gz c9f7e5a3cda4e332a1a9a4ef535d9868 0o664
-archives/ostap.0.3.1+opam.tar.gz 344a602e0ca0b8b1a6e31afce76ffb32 0o664
 archives/checked.0.3.1+opam.tar.gz d861d8ef711dad5b55e4ff7c6624c3cc 0o664
 archives/camlp5.6.14+ostappatch+opam.tar.gz c07c14b837dd4f33806eeb1361ab58ff 0o664
 archives/camlp5.6.11+ostappatch+opam.tar.gz f00aea7da394477ab15f1db842a5c777 0o664
