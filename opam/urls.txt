@@ -36,6 +36,12 @@ packages/generic-transformers.0.1+dev/descr 42e7e17dddc8abf66682400d79731b98 0o6
 packages/checked.0.3.1/url c9e8352e7cfe5519148c3eef2b7c53df 0o664
 packages/checked.0.3.1/opam 815ea1be137b82825b73010852cc8667 0o664
 packages/checked.0.3.1/descr fa9b6effd7d0eec3a55bce2523b59dc0 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/url dfd5235c43c7be533acdfbf23db9a382 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/opam e5a9124bdd5ef5b7d7346cdf501ac712 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/ocaml4.03.patch 790fef2ed99ebfa3babf4500b10788b5 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5-6.08.patch 39079360e0d0ed09397d387e3c61afbb 0o664
+packages/camlp5.6.15+ostappatch+ocaml4_03patch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
 packages/camlp5.6.14+ostappatch/url dfd5235c43c7be533acdfbf23db9a382 0o664
 packages/camlp5.6.14+ostappatch/opam dd189e25f773a6df82f6ed1557ce4a15 0o664
 packages/camlp5.6.14+ostappatch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
@@ -46,10 +52,13 @@ packages/camlp5.6.11+ostappatch/opam 873aa17982273e394b2e5290694ba662 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
 packages/camlp5.6.11+ostappatch/files/camlp5-6.08.patch 39079360e0d0ed09397d387e3c61afbb 0o664
 packages/camlp5.6.11+ostappatch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
-compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o644
+compilers/4.03.0+trunk+fastppx/4.03.0+trunk+fastppx.descr 33e49e38b76bdb10602f531f5541494f 0o644
+compilers/4.03.0+trunk+fastppx/4.03.0+trunk+fastppx.comp a6ae80acc7f8eb9289c474a39aa4bcc2 0o644
+compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o664
 compilers/4.02.3+fastppx/4.02.3+fastppx.comp 35418848b30883e3256984858fb506f0 0o664
 archives/typeutil.0.2.1+opam.tar.gz d20b5f703e1cd59fcbeb40c906f96b44 0o664
 archives/settings.0.1+opam.tar.gz c9f7e5a3cda4e332a1a9a4ef535d9868 0o664
 archives/checked.0.3.1+opam.tar.gz d861d8ef711dad5b55e4ff7c6624c3cc 0o664
+archives/camlp5.6.15+ostappatch+ocaml4_03patch+opam.tar.gz 2a841027e95e4070d52b0502e55a456d 0o664
 archives/camlp5.6.14+ostappatch+opam.tar.gz c07c14b837dd4f33806eeb1361ab58ff 0o664
 archives/camlp5.6.11+ostappatch+opam.tar.gz f00aea7da394477ab15f1db842a5c777 0o664
