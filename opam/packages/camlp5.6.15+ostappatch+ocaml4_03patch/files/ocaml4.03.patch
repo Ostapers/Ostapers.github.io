@@ -1,0 +1,32 @@
+--- ../camlp5_orig/camlp5.6.14+ostappatch/ocaml_src/main/argl.ml	2015-07-30 21:27:34.000000000 +0400
++++ ./ocaml_src/main/argl.ml	2015-12-30 15:41:20.101493949 +0400
+@@ -19,12 +19,12 @@
+         match sl with
+           s :: sl ->
+             begin try f (int_of_string s); Some sl with
+-              Failure "int_of_string" -> None
++              Failure msg when msg = "int_of_string" -> None
+             end
+         | [] -> None
+       else
+         begin try f (int_of_string s); Some sl with
+-          Failure "int_of_string" -> None
++          Failure msg when msg = "int_of_string" -> None
+         end
+   | Arg.Float f ->
+       if s = "" then
+@@ -50,12 +50,12 @@
+                     match sl with
+                       s :: sl ->
+                         begin try r := int_of_string s; Some sl with
+-                          Failure "int_of_string" -> None
++                          Failure msg when msg = "int_of_string" -> None
+                         end
+                     | [] -> None
+                   else
+                     begin try r := int_of_string s; Some sl with
+-                      Failure "int_of_string" -> None
++                      Failure msg when msg = "int_of_string" -> None
+                     end
+               | None ->
+                   match arg_set_float a with
