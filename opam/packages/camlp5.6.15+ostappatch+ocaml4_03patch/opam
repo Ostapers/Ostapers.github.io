@@ -11,6 +11,5 @@ license: "BSD-3-Clause"
 authors: ["Daniel de Rauglaudre"]
 patches: [
 	"camlp5-6.08.patch"
-	"ocaml4.03.patch"
 ]
 
