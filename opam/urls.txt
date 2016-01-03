@@ -19,6 +19,8 @@ packages/settings.0.1+git/descr 68cc2a2bd5d427f2c757e2f88a7d572c 0o664
 packages/sample-implementation.0.1+git/url 4ad9323c7bc7bf3aa6f87b60bce311a2 0o664
 packages/sample-implementation.0.1+git/opam df2ec29cba1ecc3a0fae1442893810d7 0o664
 packages/sample-implementation.0.1+git/descr c761fb96b2bec69ebc98636d9190a6b0 0o664
+packages/ppx_tools.4.03.0/url b850d088928046309e553a972891e5ca 0o664
+packages/ppx_tools.4.03.0/opam ae9edba5e2fc0c721aea4bb278c0e350 0o664
 packages/ostap.0.3.1+git/url cc2c51ece73cb5d80468f265717ff540 0o664
 packages/ostap.0.3.1+git/opam a59d895bbda43d6b03151402a1a0a206 0o664
 packages/ostap.0.3.1+git/descr 0036e2148f367f209a390641fd7267e3 0o664
@@ -38,7 +40,6 @@ packages/checked.0.3.1/opam 815ea1be137b82825b73010852cc8667 0o664
 packages/checked.0.3.1/descr fa9b6effd7d0eec3a55bce2523b59dc0 0o664
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/url 8aa4ccfd66ba8afbcf7ba2e01d05c2bb 0o664
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/opam 74682294888a3a5d2f361f0cf4c8372d 0o664
-packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/ocaml4.03.patch 21cb55b7cc4c6f1a59a39279e0775636 0o664
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5.install 6521669a5d791e95ff1631189adb698c 0o664
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5-6.08.patch 39079360e0d0ed09397d387e3c61afbb 0o664
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/descr 789e84c6bfa0959f87d5fda993d49da3 0o664
