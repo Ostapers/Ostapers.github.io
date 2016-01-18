@@ -1,0 +1,110 @@
+diff --git a/Makefile b/Makefile
+index ead6520..e3f33ca 100644
+--- a/Makefile
++++ b/Makefile
+@@ -100,7 +100,7 @@ ASMCOMP=asmcomp/arch.cmo asmcomp/debuginfo.cmo \
+   asmcomp/asmlink.cmo asmcomp/asmlibrarian.cmo asmcomp/asmpackager.cmo \
+   driver/opterrors.cmo driver/optcompile.cmo
+ 
+-TOPLEVEL=toplevel/genprintval.cmo toplevel/toploop.cmo \
++TOPLEVEL=toplevel/genprintval.cmo toplevel/fastppx.cmo toplevel/toploop.cmo \
+   toplevel/trace.cmo toplevel/topdirs.cmo toplevel/topmain.cmo
+ 
+ BYTESTART=driver/main.cmo
+diff --git a/toplevel/fastppx.ml b/toplevel/fastppx.ml
+new file mode 100644
+index 0000000..6d48489
+--- /dev/null
++++ b/toplevel/fastppx.ml
+@@ -0,0 +1,28 @@
++
++
++open Format
++
++let all_ppx : Obj.t list ref = ref []
++
++let add_extension ppf o =
++  all_ppx := o :: !all_ppx;
++  Format.fprintf ppf "Extension is added. There are %d extensions at the moment\n%!"
++                 (List.length !all_ppx);
++  Format.pp_print_flush ppf ()
++
++
++let apply (ss: Parsetree.structure_item list) =
++  let open Ast_mapper in
++  match !all_ppx with
++  | [] -> ss
++  | ms ->
++      List.map (fun si ->
++        List.fold_left (fun acc m ->
++          let m : Ast_mapper.mapper = Obj.obj m in
++          m.structure_item m acc)
++          si ms)
++        ss
++
++let clear () =
++  Format.fprintf std_formatter  "All extensions are disabled\n%!";
++  all_ppx := []
+diff --git a/toplevel/topdirs.ml b/toplevel/topdirs.ml
+index 7ba572b..2724181 100644
+--- a/toplevel/topdirs.ml
++++ b/toplevel/topdirs.ml
+@@ -320,6 +320,23 @@ let _ = Hashtbl.add directive_table "install_printer"
+ let _ = Hashtbl.add directive_table "remove_printer"
+              (Directive_ident (dir_remove_printer std_out))
+ 
++let immediate_ppx ppf (lid: Longident.t) =
++  let (path, desc) = Env.lookup_value lid !toplevel_env in
++(*
++  fprintf ppf "%a\n%a\n@."
++    Printtyp.longident lid
++    Printtyp.type_expr ({desc=desc.val_type.desc; level=0; id=0});
++  flush stdout;
++*)
++  (* TODO: add typechecking for val_type.desc *)
++  let () = match desc.val_type.desc with
++    | _ ->
++        let mapper = eval_path !toplevel_env path in
++        Fastppx.add_extension ppf mapper;
++        ()
++  in
++  ()
++
+ (* The trace *)
+ 
+ external current_environment: unit -> Obj.t = "caml_get_current_environment"
+@@ -536,6 +553,12 @@ let _ =
+ 
+ (* Set various compiler flags *)
+ 
++  Hashtbl.add directive_table "dsource"
++             (Directive_bool(fun b -> Clflags.dump_source := b));
++
++  Hashtbl.add directive_table "dparsetree"
++             (Directive_bool(fun b -> Clflags.dump_parsetree := b));
++
+   Hashtbl.add directive_table "labels"
+              (Directive_bool(fun b -> Clflags.classic := not b));
+ 
+@@ -548,6 +571,9 @@ let _ =
+   Hashtbl.add directive_table "ppx"
+     (Directive_string(fun s -> Clflags.all_ppx := s :: !Clflags.all_ppx));
+ 
++  Hashtbl.add directive_table "ppx2" (Directive_ident (immediate_ppx std_out) );
++  Hashtbl.add directive_table "ppx2clear" (Directive_none Fastppx.clear);
++
+   Hashtbl.add directive_table "warnings"
+              (Directive_string (parse_warnings std_out false));
+ 
+diff --git a/toplevel/toploop.ml b/toplevel/toploop.ml
+index a3cb06b..142cfb3 100644
+--- a/toplevel/toploop.ml
++++ b/toplevel/toploop.ml
+@@ -336,6 +336,7 @@ let preprocess_phrase ppf phr =
+         let str =
+           Pparse.apply_rewriters_str ~restore:true ~tool_name:"ocaml" str
+         in
++        let str = Fastppx.apply str in
+         Ptop_def str
+     | phr -> phr
+   in
