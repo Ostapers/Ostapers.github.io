@@ -9,5 +9,5 @@ remove: [
 ]
 
 homepage: "http://oops.math.spbu.ru/projects/typeutil"
-depends: ["logger"]
+depends: []
 
