@@ -1,2 +1,2 @@
-git: "git@github.com:Kakadu/sample-implementation.git@ocamlbuild"
+git: "https://github.com/Kakadu/sample-implementation.git@ocamlbuild"
 

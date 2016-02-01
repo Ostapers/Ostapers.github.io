@@ -1,5 +1,5 @@
 opam-version: "1"
-version: "4.02.3-modular-implicits-fastppx"
+version: "4.02.3-modular-implicits"
 src: "https://github.com/Kakadu/ocaml-modular-implicits/archive/mi-rebased-4.02.3.zip"
 build: [
   ["./configure" "-prefix" prefix ]
