@@ -13,5 +13,5 @@ packages: [
   "base-threads"
 ]
 env: [[CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs"]]
-files: [ "localppx_for_4.02.3.diff" ]
+patches: [ "http://Ostapers.github.io/opam/compilers/4.02.3-modular-implicits/files/localppx_for_4.02.3.diff" ]
 
