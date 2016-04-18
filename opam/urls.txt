@@ -36,7 +36,7 @@ packages/ostap.0.3.1+git/descr 0036e2148f367f209a390641fd7267e3 0o664
 packages/miniKanren-typed.0.0.1/url 0a56219a5fc37da6d78c520ab9841d7c 0o664
 packages/miniKanren-typed.0.0.1/opam 6918aa99ae783eea29d030e2766bfc5e 0o664
 packages/miniKanren-typed.0.0.1/descr a2262bf4547e2290e3efeefcd720a269 0o664
-packages/lwt.2.5.1-implicits/url 37789d1be3dff1286cc16c22efebed4b 0o644
+packages/lwt.2.5.1-implicits/url a1d156b523fac8231ced5e3022a4a065 0o644
 packages/lwt.2.5.1-implicits/opam 65daecb305b9aa4af293bc79f75ca86d 0o644
 packages/lwt.2.5.1-implicits/descr 5f1447175272c9b58d0bece60980f1a8 0o644
 packages/logger.0.4.2/url 3c25f58b3b9c6495167306eef2ee9fa0 0o664
@@ -78,9 +78,8 @@ compilers/4.02.3-modular-implicits/4.02.3-modular-implicits.descr 380b5b72b36e68
 compilers/4.02.3-modular-implicits/4.02.3-modular-implicits.comp ef7c97e2d002640c1889007865cb1944 0o664
 compilers/4.02.3+fastppx/4.02.3+fastppx.descr 168c4c8420208437f10e40a623d4e68a 0o644
 compilers/4.02.3+fastppx/4.02.3+fastppx.comp 35418848b30883e3256984858fb506f0 0o664
-archives/typeutil.0.2.1+opam.tar.gz bb72e9167bc1bdb165280f35081a2902 0o664
-archives/settings.0.1+opam.tar.gz b7b9aec9719d3830adc1a4a0b8ea670f 0o664
-archives/checked.0.3.1+opam.tar.gz 1fd99528465db5f73346aa68558e7bab 0o664
-archives/camlp5.6.14+ostappatch+opam.tar.gz e033a9ae22e206390718934b22791792 0o664
-archives/camlp5.6.11+ostappatch+opam.tar.gz 6b559d04334c5b353e1abe882acbeb44 0o664
-archives/camlp4.4.02.0-1modular-implicits+opam.tar.gz 3e88c357df122d5905fac6bf3f48450b 0o664
+archives/typeutil.0.2.1+opam.tar.gz 9c9c97495bf93e3be59820a6a225ec90 0o664
+archives/settings.0.1+opam.tar.gz cd8578936f88b0ab5e2dde6a2f548a5a 0o664
+archives/checked.0.3.1+opam.tar.gz 26bd25675d34d351b185f12f3d5d294d 0o664
+archives/camlp5.6.14+ostappatch+opam.tar.gz 4d6f049cde97b8322dcd077fdd917c65 0o664
+archives/camlp5.6.11+ostappatch+opam.tar.gz 52b97d15cf23ff8ed413e6714af3d7f3 0o664
