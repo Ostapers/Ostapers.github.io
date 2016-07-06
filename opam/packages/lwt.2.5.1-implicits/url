@@ -1,1 +1,1 @@
-archive: "https://github.com/Ostapers/lwt.git#implicits"
+git: "https://github.com/Ostapers/lwt.git@implicits"

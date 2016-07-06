@@ -1,2 +1,2 @@
-archive: "https://github.com/Ostapers/camlp4.git#4.02-implicits"
+git: "https://github.com/Ostapers/camlp4.git#4.02-implicits"
 
