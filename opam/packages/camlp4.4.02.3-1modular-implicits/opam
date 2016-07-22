@@ -1,6 +1,6 @@
 opam-version: "1.2"
 name: "camlp4"
-version: "4.02.0-1modular-implicits"
+version: "4.02.3-1modular-implicits"
 maintainer: "jeremie@dimino.org"
 homepage: "https://github.com/ocaml/camlp4"
 bug-reports: "https://github.com/ocaml/camlp4/issues"
