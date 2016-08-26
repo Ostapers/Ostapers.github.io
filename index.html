@@ -11,7 +11,17 @@ opam remote add ostap http://ostapers.github.io/opam
 opam update ostap
 opam install ostap
   </pre>
-
+  
+  <h3>How to test everything without adding opam repo</h3>
+    <pre>
+      opam pin add typeutil https://github.com/Ostapers/typeutil.git
+      ...
+      opam pin add typeutil https://github.com/Ostapers/checked.git
+      ...
+      opam pin add typeutil https://github.com/Ostapers/ostap.git
+      ...
+      opam install ostap -t -v
+    </pre>
   <h3>miniKanren port to OCaml</p>
 <pre>
 opam switch test-kanren -A 4.01.0
