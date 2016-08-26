@@ -5,25 +5,28 @@
 <body>
   <h3>About</h3>
   Ostap parser-combinator library now in OPAM. Svn history has not been saved. Autotools abandoned, OCamlBuild is used now.
-  <h3>OPAM</p>
+  <h3>OPAM
   <pre>
 opam remote add ostap http://ostapers.github.io/opam
 opam update ostap
 opam install ostap
   </pre>
+  </h3>
   
-  <h3>How to test everything without adding opam repo</h3>
+  <h3>How to test everything without adding opam repo
     <pre>
       opam pin add typeutil https://github.com/Ostapers/typeutil.git
       ...
-      opam pin add typeutil https://github.com/Ostapers/checked.git
+      opam pin add checked  https://github.com/Ostapers/checked.git
       ...
-      opam pin add typeutil https://github.com/Ostapers/ostap.git
+      opam pin add ostap    https://github.com/Ostapers/ostap.git
       ...
       opam install ostap -t -v
     </pre>
-  <h3>miniKanren port to OCaml</p>
-<pre>
+  </h3>
+  
+  <h3>miniKanren port to OCaml
+    <pre>
 opam switch test-kanren -A 4.01.0
 eval `opam config env`
 opam remote add ostap http://ostapers.github.io/opam
@@ -33,8 +36,8 @@ opam install generic-transformers logger -y
 #cd ~/prog
 rm -fr miniKanren-ocaml && git clone git@github.com:Ostapers/miniKanren-ocaml-typed.git miniKanren-ocaml && cd miniKanren-ocaml
 make && ./test.byte
-
-</pre>
+    </pre>
+  </h3>
 <hr>
 </body>
 </html>
