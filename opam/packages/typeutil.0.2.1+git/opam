@@ -1,12 +1,17 @@
 opam-version: "1"
+authors: "dboulytchev@gmail.com"
 maintainer: "kakadu.hafanana@gmail.com"
+homepage: "http://oops.math.spbu.ru/projects/typeutil"
+dev-repo: "https://github.com/Ostapers/typeutil.git"
+
 build: [
 	[make]
+]
+install: [
 	[make "install"]
 ]
 remove: [
 	["ocamlfind" "remove" "typeutil"]
 ]
-homepage: "http://oops.math.spbu.ru/projects/typeutil"
 depends: [ "ocamlfind" ]
 

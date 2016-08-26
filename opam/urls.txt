@@ -1,8 +1,6 @@
-archives/camlp5.6.11+ostappatch+opam.tar.gz	a9b019c2bdebf1d5bb12566ed177e760	420
-archives/camlp5.6.14+ostappatch+opam.tar.gz	8a79478ad5568de986174c508e98cbf4	420
-archives/checked.0.3.1+opam.tar.gz	e73d836872f0d5dd38db051598b9b199	420
-archives/settings.0.1+opam.tar.gz	e8522f04219f1dea970c254985964a21	420
-archives/typeutil.0.2.1+opam.tar.gz	78ec9f98084699cb21d2e57b0f825809	420
+archives/camlp5.6.11+ostappatch+opam.tar.gz	401dc99754ce8c5488d5376735f8828a	420
+archives/camlp5.6.14+ostappatch+opam.tar.gz	37478fec2a5b19feb6de94513d4d7531	420
+archives/settings.0.1+opam.tar.gz	d23f21522f7bd6f6ffe9bf9958d62abb	420
 compilers/4.02.3+fastppx/4.02.3+fastppx.comp	35418848b30883e3256984858fb506f0	420
 compilers/4.02.3+fastppx/4.02.3+fastppx.descr	168c4c8420208437f10e40a623d4e68a	420
 compilers/4.02.3-modular-implicits/4.02.3-modular-implicits.comp	ef7c97e2d002640c1889007865cb1944	420
@@ -27,9 +25,9 @@ packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5-6.08.patch	39079360e
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/files/camlp5.install	6521669a5d791e95ff1631189adb698c	420
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/opam	4f9478e3e50364a316d3388d2c50fd8d	420
 packages/camlp5.6.15+ostappatch+ocaml4_03patch/url	ff94f12b31c327e308c6df977b614a3e	420
-packages/checked.0.3.1/descr	fa9b6effd7d0eec3a55bce2523b59dc0	420
-packages/checked.0.3.1/opam	815ea1be137b82825b73010852cc8667	420
-packages/checked.0.3.1/url	c9e8352e7cfe5519148c3eef2b7c53df	420
+packages/checked.0.3.1+git/descr	fa9b6effd7d0eec3a55bce2523b59dc0	420
+packages/checked.0.3.1+git/opam	63911e6c06208c317940758a0831f22e	420
+packages/checked.0.3.1+git/url	caf84a2fc51b53cdd4d52d4359036176	420
 packages/generic-transformers.0.1+dev/descr	42e7e17dddc8abf66682400d79731b98	420
 packages/generic-transformers.0.1+dev/opam	313dbddd3a19ac43a57cd0c31a1802f5	420
 packages/generic-transformers.0.1+dev/url	d500ce06028adb6ea6998e968e85c80b	420
@@ -52,7 +50,7 @@ packages/miniKanren-typed.0.0.1/descr	a2262bf4547e2290e3efeefcd720a269	420
 packages/miniKanren-typed.0.0.1/opam	6918aa99ae783eea29d030e2766bfc5e	420
 packages/miniKanren-typed.0.0.1/url	0a56219a5fc37da6d78c520ab9841d7c	420
 packages/ostap.0.3.1+git/descr	0036e2148f367f209a390641fd7267e3	420
-packages/ostap.0.3.1+git/opam	a59d895bbda43d6b03151402a1a0a206	420
+packages/ostap.0.3.1+git/opam	7f1e557bfd3362ddf929d00872f9236d	420
 packages/ostap.0.3.1+git/url	cc2c51ece73cb5d80468f265717ff540	420
 packages/ppx_deriving.3.0-modular-implicits/opam	1118edcdca425cbb5aa3e0908b6f977c	420
 packages/ppx_deriving.3.0-modular-implicits/url	3c96f1cac03e4475ce50d9819f2b42d5	420
@@ -79,10 +77,5 @@ packages/settings.0.1/url	cc0593f1bb7178f39b820f440b5b0afb	420
 packages/typeutil.0.2.1+git/descr	bfc67546c37af3a831c087f1bd09540f	420
 packages/typeutil.0.2.1+git/files/popd.patch	cd79b0180190732852d96167691dab30	420
 packages/typeutil.0.2.1+git/files/version.patch	feaaf11a874327b92fb5a2fae7269a9d	420
-packages/typeutil.0.2.1+git/opam	1ea40661de1b7dbf9d69e1a99b39df0f	420
-packages/typeutil.0.2.1+git/url	250ded22ac63faa89a4999eaa77465fb	420
-packages/typeutil.0.2.1/descr	bfc67546c37af3a831c087f1bd09540f	420
-packages/typeutil.0.2.1/files/popd.patch	cd79b0180190732852d96167691dab30	420
-packages/typeutil.0.2.1/files/version.patch	feaaf11a874327b92fb5a2fae7269a9d	420
-packages/typeutil.0.2.1/opam	acbf3211b9f5e6067860a09a2cb947ac	420
-packages/typeutil.0.2.1/url	efe9250dd4d9155fc9deb64ac4a4f465	420
+packages/typeutil.0.2.1+git/opam	88b1f589b7186270b2921a1ccbe3ad59	420
+packages/typeutil.0.2.1+git/url	67c4d00279133ec21e69ac0bf8128660	420
