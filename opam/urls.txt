@@ -30,10 +30,10 @@ packages/miniKanren-typed.0.0.1/url 0a56219a5fc37da6d78c520ab9841d7c 0o664
 packages/miniKanren-typed.0.0.1/opam 6918aa99ae783eea29d030e2766bfc5e 0o664
 packages/miniKanren-typed.0.0.1/descr a2262bf4547e2290e3efeefcd720a269 0o664
 packages/lwt.2.5.2-implicits/url 7a3a1b211208c4fa5c10e59b6febea01 0o664
-packages/lwt.2.5.2-implicits/opam 65daecb305b9aa4af293bc79f75ca86d 0o664
+packages/lwt.2.5.2-implicits/opam 54109e06a5fab9225b4fed259ca3d3f2 0o664
 packages/lwt.2.5.2-implicits/descr 5f1447175272c9b58d0bece60980f1a8 0o664
 packages/lwt.2.5.1-implicits/url 37789d1be3dff1286cc16c22efebed4b 0o664
-packages/lwt.2.5.1-implicits/opam 65daecb305b9aa4af293bc79f75ca86d 0o664
+packages/lwt.2.5.1-implicits/opam 54109e06a5fab9225b4fed259ca3d3f2 0o664
 packages/lwt.2.5.1-implicits/descr 5f1447175272c9b58d0bece60980f1a8 0o664
 packages/logger.0.4.2/url 3c25f58b3b9c6495167306eef2ee9fa0 0o664
 packages/logger.0.4.2/opam 5f80b8f652403fc362195790b3b37376 0o664
